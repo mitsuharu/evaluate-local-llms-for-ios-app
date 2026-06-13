@@ -37,9 +37,7 @@ GitHub の [Search repositories API](https://docs.github.com/ja/rest/search/sear
 3. 検索結果を一覧（リポジトリ名）で表示する
 4. 一覧から項目を選択すると詳細画面を表示する
 
----
-
-## 2. 必須要件（Must）
+## 必須要件（Must）
 
 これらを満たすように実装してください。
 
@@ -66,9 +64,7 @@ GitHub の [Search repositories API](https://docs.github.com/ja/rest/search/sear
 | Fork 数 | `forks_count` |
 | Issue 数 | `open_issues_count` |
 
----
-
-## 3. 技術スタック・開発環境
+## 技術スタック・開発環境
 
 | 項目 | 指定 |
 |------|------|
@@ -79,9 +75,7 @@ GitHub の [Search repositories API](https://docs.github.com/ja/rest/search/sear
 
 外部ライブラリを使う場合は「なぜ標準ライブラリではなくそれを選んだか」を README に簡潔に記載してください。
 
----
-
-## 4. アーキテクチャ・責務分離
+## アーキテクチャ・責務分離
 
 機能やレイヤーごとに責務を明確に分離してください。アーキテクチャは MVVM + Repository パターンなど、自身が最適だと考えるものを採用してください。
 
@@ -92,9 +86,7 @@ GitHub の [Search repositories API](https://docs.github.com/ja/rest/search/sear
 - **依存はプロトコルで注入**し、テスト時にモックへ差し替え可能にすること（Dependency Injection）。
 - 各レイヤー間のデータの受け渡しは、明確に定義された型を用いること。
 
----
-
-## 5. API 仕様
+## API 仕様
 
 ### エンドポイント
 
