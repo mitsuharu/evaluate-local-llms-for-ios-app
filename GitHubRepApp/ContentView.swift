@@ -2,20 +2,13 @@
 //  ContentView.swift
 //  GitHubRepApp
 //
-//  Created by Mitsuharu Emoto on 2026/06/13.
-//
 
 import SwiftUI
 
+/// アプリのルート View。デフォルトの依存を組み立てて `SearchView` を表示する。
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        SearchView(viewModel: SearchViewModel(searcher: GitHubRepositoryRepository()))
     }
 }
 
