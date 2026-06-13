@@ -215,7 +215,7 @@ enum RepositorySearchError: Error, Equatable {
 - **ソート切り替え**: Star 数・Fork 数・更新日などでの並び替え UI。
 - **画像キャッシュ**: オーナーアイコンのメモリ/ディスクキャッシュ。
 - **検索履歴・お気に入り**: ローカル永続化（`UserDefaults` / `SwiftData` など）。
-- **ダークモード対応・アクセシビリティ対応**（Dynamic Type、VoiceObject ラベル等）。
+- **ダークモード対応・アクセシビリティ対応**（Dynamic Type、VoiceOver ラベル等）。
 - **詳細画面からブラウザで開く**（`html_url` を `SafariViewController` 等で表示）。
 - **Pull to Refresh**。
 - **UI テスト**（XCUITest）の追加。
